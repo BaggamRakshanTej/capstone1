@@ -41,6 +41,10 @@
 	padding: 25px;
 }
 
+#aboutnav, #projectdivnav, #contact-menav{
+	padding-top: 75px;
+}
+
 h1{
 	font-size: 4rem !important;
 	margin-bottom: 2rem;
@@ -68,4 +72,98 @@ h1{
 
 #about{
 	margin-top: 5vh;
+}
+
+#responsivecontainer {
+	display: flex;
+	flex-direction: row;
+}
+
+#intro {
+	width: 50%;
+}
+
+.start {
+	padding-top: 0px;
+	width: 100% !important;
+}
+
+.navbar {
+	width: 	100%
+}
+
+@media only screen and (max-width: 1250px)  {
+  	#responsivecontainer {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.row{
+		flex-direction: column;
+	}
+
+	.navbar{
+		display: flow-root !important;
+	}
+
+	#aboutnav, #projectdivnav, #contact-menav {
+		width: 100vh;
+    	font-size: 30px;
+	}
+
+	h1 {
+		font-size: 90px !important;
+	}
+
+	h2 {
+		font-size: 70px !important;
+	}
+
+	h3 {
+		font-size: 50px !important;
+	}
+
+	p {
+		font-size: 30px !important;
+	}
+
+	#intro {
+		width: 80%;
+	}
+
+	#proj {
+
+	}
+
+	.bootcamp {
+		margin-top: 18rem !important;
+		margin-left: 0;
+		margin-right: 0;
+		justify-content: center;
+    	display: flex;
+    	align-items: center;
+    	flex-direction: column;
+	}
+
+	.col {
+		margin-top: 75px;
+	}
+
+	#contact-menav {
+		max-width: none;
+	}
+
+	.contact-details-parent{
+		width: 100vh !important;
+	}
+
+	.start {
+		padding-top: 0px;
+	}
+
+	.start2 {
+		width: 100vh !important;
+	}
+
 }
