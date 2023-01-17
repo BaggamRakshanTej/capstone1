@@ -3,7 +3,12 @@
 }
 
 .nav{
-	position: fixed;
+	position: sticky;
+	padding: 0;
+
+}
+
+.navbar{
 	padding: 0;
 
 }
@@ -31,8 +36,9 @@
 	margin-right: 20%;
 }
 
-.about-me{
+#about{
 	font-size: 20px;
+	padding: 25px;
 }
 
 h1{
@@ -60,4 +66,6 @@ h1{
 	background-color: darkslategrey;
 }
 
-
+#about{
+	margin-top: 5vh;
+}
