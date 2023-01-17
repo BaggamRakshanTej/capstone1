@@ -2,6 +2,12 @@
 	font-family: 'Playfair Display', serif;
 }
 
+.nav{
+	position: fixed;
+	padding: 0;
+
+}
+
 .navigation{
 	font-size: 18px;
 	margin-right: 3px;
@@ -31,6 +37,7 @@
 
 h1{
 	font-size: 4rem !important;
+	margin-bottom: 2rem;
 }
 
 .navabar{
@@ -40,3 +47,17 @@ h1{
 .navabar-whole{
 	background-color: #F8F8E9!important;
 }
+
+.fade{
+	color: black;
+}
+
+.contact-details{
+	display: inline-block;
+}
+
+.contact-details-parent{
+	background-color: darkslategrey;
+}
+
+
